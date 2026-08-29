@@ -1,4 +1,4 @@
-const BACKEND = 'http://localhost:5000';
+const BACKEND = 'https://erasure-extension.onrender.com';
 
 let token = null;
 
