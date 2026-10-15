@@ -113,13 +113,3 @@ Then load it into Chrome:
 - **In-memory machine registry** — connected machines are tracked in a plain JS object on the server, so it resets on restart and won't scale past a single server instance.
 - **No `npm start` script yet** — run the backend with `node server.js` directly, or add one to `package.json`.
 
----
-
-## Roadmap ideas
-
-- [ ] Real password/passkey auth
-- [ ] `npm start` script + process manager config (PM2 / Docker)
-- [ ] Persist connected-machine registry (Redis) for multi-instance scaling
-- [ ] Lock down CORS to known origins
-- [ ] Session history / audit log (who revoked what, when)
-- [ ] Firefox / Edge extension builds
